@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="question-container">
+            <h2 id="question"></h2>
+            <ol type="a" id="answer-buttons" class="button-grid">
+                <!--
+                <li class="button">A. <span id="option-a"></span></li>
+                <li class="button">B. <span id="option-b"></span></li>
+                <li class="button">C. <span id="option-c"></span></li>
+                <li class="button">D. <span id="option-d"></span></li>
+                -->
+                <li class="button" id="option-a"></li>
+                <li class="button" id="option-b"></li>
+                <li class="button" id="option-c"></li>
+                <li class="button" id="option-d"></li>
+            </ol>
+        </div>
+
+        <button id="previous-button" class="nav-button">Previous</button>
+        <button id="next-button" class="nav-button">Next</button>
+
+        <button id="submit-button">Submit</button>
+
+        <div id="progress">Question X of Y</div>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
