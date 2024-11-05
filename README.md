@@ -1,6 +1,10 @@
 
 # TEST README
 
+## NOTE
+
+**This is a DEMO PROJECT for clients that I teach Web Development to.**
+
 ## Overview
 
 This project demonstrates my skills in the following:
